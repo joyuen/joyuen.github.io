@@ -1,0 +1,35 @@
+html, body {
+	width: 100%;
+}
+
+.container {
+	margin-top: 50px;
+	border: 1px solid black;
+	font-family: 'Times New Roman', Times, serif;
+	padding-bottom: 20px;
+}
+
+#fontName {
+	border-top: 0;
+	font-size: 50px;
+	border-bottom: 5px solid black;
+}
+
+
+#subHead {
+	padding: 0;
+	margin-top: 0;
+}
+
+#date {
+	text-align: right;
+	padding: 0;
+	margin-top: 0;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 50%;
+		margin-bottom: 50px;
+	}
+}
